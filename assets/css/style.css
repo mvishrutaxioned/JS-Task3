@@ -134,10 +134,13 @@ h1 {
 }
 
 ul {
+  width: 10%;
+  margin: 0 auto;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  animation: waveAnimation .8s .5s ease forwards;
 }
 
 ul li {
@@ -213,10 +216,10 @@ ul li small { font-size: 13px; }
   main styling ends here
 =================================*/
 
-/*media query starts*/
-/*media query for 995px starts here*/
-@media only screen and (max-width: 995px) {
+/*keyframes starts*/
 
-
-
-}  
+@keyframes waveAnimation {
+  to {
+    width: 100%;
+  }
+}
