@@ -135,6 +135,10 @@ h1 {
 
 ul {
   width: 10%;
+<<<<<<< HEAD
+=======
+  margin: 0 auto;
+>>>>>>> feature-js
   display: flex;
   justify-content: center;
   align-items: center;
@@ -215,9 +219,8 @@ ul li small { font-size: 13px; }
   main styling ends here
 =================================*/
 
-/*media query starts*/
+/*keyframes starts*/
 
-/* keyframes styling starts here */
 @keyframes waveAnimation {
   to {
     width: 100%;
